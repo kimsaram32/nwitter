@@ -9,7 +9,7 @@ import { useUserObj } from 'userObjContext';
 const AppRouter = ({ isLoggedIn }) => {
   const userObj = useUserObj();
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       {isLoggedIn && <Navigation />}
       <Switch>
         {isLoggedIn ? (
