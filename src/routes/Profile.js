@@ -9,10 +9,10 @@ const Profile = () => {
   const refreshUser = useRefreshUser();
   const [newDisplayName, setNewDisplayName] = useState(userObj.displayName);
   
-  const onLogOutClick = () => {
-    authService.signOut();
-    refreshUser();
+  const onLogOutClick = async () => {
+    await authService.signOut();
     history.push('/');
+    refreshUser();
   };
   const getMyNweets = async () => {
     const nweets = await dbService
