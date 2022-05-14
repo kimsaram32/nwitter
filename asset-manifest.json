@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "https://kimsaram32.github.io/nwitter/static/css/main.7be65ab3.css",
+    "main.js": "https://kimsaram32.github.io/nwitter/static/js/main.3f9559ab.js",
+    "index.html": "https://kimsaram32.github.io/nwitter/index.html",
+    "main.7be65ab3.css.map": "https://kimsaram32.github.io/nwitter/static/css/main.7be65ab3.css.map",
+    "main.3f9559ab.js.map": "https://kimsaram32.github.io/nwitter/static/js/main.3f9559ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7be65ab3.css",
+    "static/js/main.3f9559ab.js"
+  ]
+}
